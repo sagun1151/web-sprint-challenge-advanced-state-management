@@ -9,8 +9,8 @@ import { fetchSmurfs } from './actions/index'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 
-const App = ()=> {
-
+const App = (props)=> {
+  const { fetchSmurfs} = props
   useEffect(()=> {
     fetchSmurfs();
   },[]);
