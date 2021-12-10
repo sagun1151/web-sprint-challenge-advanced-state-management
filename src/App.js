@@ -11,6 +11,7 @@ import "./App.css";
 
 const App = (props)=> {
   const { fetchSmurfs} = props
+  
   useEffect(()=> {
     fetchSmurfs();
   },[]);
