@@ -12,7 +12,7 @@ import "./App.css";
 const App = (props)=> {
   const { fetchSmurfs} = props
   
-  useEffect(()=> {
+  useEffect((e)=> {
     fetchSmurfs();
   },[]);
 
